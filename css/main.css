@@ -173,6 +173,7 @@ body {
   background: #3e0d09;
   color: #fff;
   height: 300px;
+  position: relative;
 }
 .bannerleft {
   width: 500px;
@@ -203,24 +204,48 @@ body {
 }
 
 .contentsection {
+  background: #e4dfcb;
+  height: 350px;
 }
 .maincontent {
+  background: #fff;
+  margin: 0 auto;
+
+  width: 918px;
+  height: 360px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 40px;
+}
+.samearticle {
+  width: 266px;
+  float: left;
+  padding: 20px;
 }
 .samearticle img {
 }
 .samearticle h3 {
+  font-family: Georgia;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  color: #600;
+  border-bottom: 1px solid #b2b2b2;
+  margin-bottom: 10px;
+  font-weight: normal;
 }
 
-.samearticle ul {
-}
 .samearticle ul {
 }
 .samearticle ul li {
+  margin-left: 20px;
+  line-height: 24px;
 }
 
 .samearticle p {
+  line-height: 18px;
 }
 .samearticle h4 {
+  margin-top: 25px;
 }
 
 .footertop {
