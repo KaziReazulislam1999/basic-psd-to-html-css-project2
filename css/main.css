@@ -94,6 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Verdana;
   font-size: 12px;
@@ -108,24 +112,62 @@ body {
   overflow: hidden;
 }
 .headsection {
+  background: #81201a;
+  color: #fff;
+  padding: 0px 20px;
 }
 .headerleft {
+  width: 268px;
+  float: left;
+  padding: 40px 0px;
+  margin-right: 60px;
 }
 .headerleft h2 {
+  font-family: Georgia;
+  font-size: 32px;
+  padding-bottom: 12px;
+  font-weight: normal;
 }
 .headerleft p {
 }
 .mainmenu {
+  float: right;
+  width: 632px;
 }
 .mainmenu ul {
 }
 .mainmenu ul li {
+  list-style: none;
+  margin-top: 20px;
 }
 .mainmenu ul li a {
+  color: #d2d2d2;
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: 10px;
+}
+.mainmenu ul li a span {
+  display: block;
+  font-family: Arial;
+  font-size: 12px;
+  text-transform: lowercase;
+  padding-top: 5px;
+  color: #fff;
+}
+.mainmenu ul li a span:hover {
+  color: #fff;
 }
 .mainmenu ul li a:hover {
+  color: #3e0d09;
+  border-top: 2px solid #3e0d09;
 }
-
+#active {
+  border-top: 2px solid #3e0d09;
+}
 .bannersection {
 }
 .bannerleft {
