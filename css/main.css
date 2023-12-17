@@ -107,6 +107,104 @@ body {
 .clear {
   overflow: hidden;
 }
+.headsection {
+}
+.headerleft {
+}
+.headerleft h2 {
+}
+.headerleft p {
+}
+.mainmenu {
+}
+.mainmenu ul {
+}
+.mainmenu ul li {
+}
+.mainmenu ul li a {
+}
+.mainmenu ul li a:hover {
+}
+
+.bannersection {
+}
+.bannerleft {
+}
+.bannerleft h1 {
+}
+.bannerleft p {
+}
+
+.bannerright {
+}
+.bannerright img {
+}
+
+.contentsection {
+}
+.maincontent {
+}
+.samearticle img {
+}
+.samearticle h3 {
+}
+
+.samearticle ul {
+}
+.samearticle ul {
+}
+.samearticle ul li {
+}
+
+.samearticle p {
+}
+.samearticle h4 {
+}
+
+.footertop {
+}
+.contactsection {
+}
+.contactsection h2 {
+}
+
+.contactsection p {
+}
+.contactsection input[type="text"] {
+}
+.contactsection input[type="submit"] {
+}
+.contactsection input[type="reset"] {
+}
+.postsection {
+}
+.samepost {
+}
+
+.samepost h2 {
+}
+.samepost p {
+}
+
+.subscribe {
+}
+.subscribe p {
+}
+.subscribe input[type="text"] {
+}
+.subscribe input[type="submit"] {
+}
+
+.footersection {
+}
+.footerleft {
+}
+.footerleft p {
+}
+.footerright {
+}
+.footerright p {
+}
 
 /* ==========================================================================
    Helper classes
