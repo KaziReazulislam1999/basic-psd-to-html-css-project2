@@ -149,6 +149,7 @@ body {
   font-size: 16px;
   padding: 20px;
   margin-left: 10px;
+  border-top: 2px solid transparent;
 }
 .mainmenu ul li a span {
   display: block;
@@ -169,17 +170,36 @@ body {
   border-top: 2px solid #3e0d09;
 }
 .bannersection {
+  background: #3e0d09;
+  color: #fff;
+  height: 300px;
 }
 .bannerleft {
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .bannerleft h1 {
+  font-family: Georgia;
+  font-size: 46px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: normal;
 }
 .bannerleft p {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .bannerright {
+  width: 432px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 .bannerright img {
+  padding: 0px 10px 10px 0px;
 }
 
 .contentsection {
