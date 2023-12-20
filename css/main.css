@@ -194,7 +194,7 @@ body {
 }
 
 .bannerright {
-  width: 432px;
+  width: 423px;
   float: right;
   margin-right: 20px;
   margin-top: 30px;
@@ -249,46 +249,122 @@ body {
 }
 
 .footertop {
+  background: #cec6a2;
 }
 .contactsection {
+  float: left;
+  width: 372px;
+  margin: 0px 20px;
+}
+.textinput {
+  float: left;
+}
+textarea {
+  width: 350px;
+  height: 90px;
+  border: none;
+  outline: none;
 }
 .contactsection h2 {
+  font-family: Georgia;
+  line-height: 22px;
+  font-size: 22px;
+  color: #333;
+  font-weight: normal;
+  padding: 20px 0px 15px 0px;
+  border-bottom: 1px solid #807c6a;
+  margin-bottom: 10px;
 }
 
 .contactsection p {
+  margin-top: 15px;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
-.contactsection input[type="text"] {
+.contactsection input[type="text"],
+.contactsection input[type="email"] {
+  margin-right: 10px;
+  outline: none;
+  padding: 3px 0px;
+  border: none;
+  width: 170px;
 }
-.contactsection input[type="submit"] {
-}
+.contactsection input[type="submit"],
 .contactsection input[type="reset"] {
+  margin-right: 10px;
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+}
+input[type="text"]:focus {
+  border: 0px;
 }
 .postsection {
+  width: 548px;
+  margin: 0px 20px;
+  float: right;
+}
+.allpost {
 }
 .samepost {
+  float: left;
+  width: 162px;
+  margin-right: 20px;
 }
 
 .samepost h2 {
+  font-family: Georgia;
+  line-height: 22px;
+  font-size: 22px;
+  color: #333;
+  font-weight: normal;
+  padding: 20px 0px 15px 0px;
+  border-bottom: 1px solid #807c6a;
+  margin-bottom: 10px;
 }
 .samepost p {
+  margin-bottom: 15px;
+  line-height: 20px;
+  color: #333;
 }
 
 .subscribe {
 }
 .subscribe p {
+  color: #333;
+  background: #e4dfcb;
+  width: 270px;
+  padding: 5px 10px;
+  float: left;
 }
 .subscribe input[type="text"] {
+  padding: 6px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  width: 198px;
 }
 .subscribe input[type="submit"] {
+  border: none;
+  padding: 6px;
+  margin-left: 1px;
+  color: #333;
 }
 
 .footersection {
+  background: #250705;
+  color: #fff;
+  padding: 20px 20px;
 }
 .footerleft {
+  float: left;
+  width: 800px;
 }
 .footerleft p {
 }
 .footerright {
+  float: right;
+  width: 160px;
 }
 .footerright p {
 }
